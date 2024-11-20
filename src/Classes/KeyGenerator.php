@@ -6,6 +6,7 @@ namespace AshAllenDesign\ShortURL\Classes;
 
 use AshAllenDesign\ShortURL\Interfaces\UrlKeyGenerator;
 use AshAllenDesign\ShortURL\Models\ShortURL;
+// Hashids has been rebranded to Sqids, so the required package should be updated.
 use Hashids\Hashids;
 
 class KeyGenerator implements UrlKeyGenerator
